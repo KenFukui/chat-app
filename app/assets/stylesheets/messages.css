@@ -6,36 +6,68 @@
   height: 100vh;
   width: 300px;
   background-color: #253141;
-  padding: 0 20px;
 }
 
 .main-chat{
   width: calc(100vw - 300px);
   background-color: #ffffff;
-  padding: 0 40px;
 }
 
 .side-box{
   height: 100px;
+  display: flex;
+  background-color: #253141;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.side-name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.side-chat a{
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 
 .side-main{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
+  padding: 0 20px;
+  
+}
+
+.chat-index a{
+  color: white;
+  text-decoration: none;
+}
+
+.room{
+  padding: 20px 0 40px;
 }
 
 .chat-header{
   height: 100px;
+  padding: 0 40px;
 }
 
 .messages{
   height: calc(100vh - 100px - 90px);
   background-color: #fafafa;
   padding-top: 46px;
+  padding: 0 40px;
 }
 
 .chat-footer{
   height: 90px;
   background-color: #dddddd;
   padding: 20px 0;
+  padding: 0 40px;
 }
+

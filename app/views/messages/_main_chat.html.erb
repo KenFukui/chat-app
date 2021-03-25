@@ -1,6 +1,8 @@
 <div class="chat-header">
   <div class="chat-name">  <%= @room.name %></div>
-  <%= link_to "チャットを終了する", room_path(@room), method: :delete %>
+  <div class="chat-finish-div">
+  <%= link_to "チャットを終了する", room_path(@room), method: :delete, class: "chat-finish" %>
+  </div>
 </div>
 
 <div class="messages">

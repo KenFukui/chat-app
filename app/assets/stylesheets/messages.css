@@ -26,14 +26,14 @@
   margin-top: 36px;
 }
 
-.chat-finish a{
+.chat-finish{
   color: darkred;
   border: 1px solid darkred;
   padding: 20px;
   text-decoration: none;
 }
 
-.chat-finish{
+.chat-finish-div{
   padding-top: 40px;
 }
 
